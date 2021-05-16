@@ -7,8 +7,7 @@ class Stone{
 	 }
 		this.x=x;
 		this.y=y;
-		this.r=r
-		this.body=Bodies.reactangle(x,y,this.width,this.width);
+		this.body=Bodies.rectangle(x,y,this.width,this.width);
 		World.add(world, this.body);
         display()
 	}
