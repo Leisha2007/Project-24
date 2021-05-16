@@ -10,8 +10,8 @@ function setup(){
     world = engine.world;
     plane = new Plane(600,height,1200,20);
     hammer = new Hammer(10,100);
-    stone=new stone();
-    iron=new iron();
+    stone=new Stone(200,100);
+    iron=new Iron(100,200);
 }
 
 function draw(){
