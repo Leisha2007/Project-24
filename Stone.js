@@ -5,10 +5,19 @@ class Stone{
 		 friction:0.9,
 		 density:12
 	 }
-		this.x=x;
-		this.y=y;
-		this.body=Bodies.rectangle(x,y,this.width,this.width);
+		this.width=20;
+	    this.body=Bodies.rectangle(x,y,this.width,this.width);
 		World.add(world, this.body);
-        display()
+	}
+	display(){
+		var stoneposition=this.body.position;
+		push();
+		translate(stoneposition.x,stoneposition.y);
+		strokeWeight(3);
+        stroke('white');
+        fill('red');
+		rectMode(CENTER);
+        rect(0, 0, this.width, this.height);
+		pop();
 	}
 }
