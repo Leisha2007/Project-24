@@ -17,7 +17,7 @@ class Stone{
         stroke('white');
         fill('red');
 		rectMode(CENTER);
-        rect(0, 0, this.width, this.height);
+        rect(100, 0, this.width, this.width);
 		pop();
 	}
 }
