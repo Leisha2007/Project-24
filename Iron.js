@@ -5,7 +5,7 @@ class Iron{
 		 friction:3,
 		 density:30
      }
-		this.width=20;
+		this.width=50;
 		this.body=Bodies.rectangle(x,y,this.width,this.width);
 	    World.add(world, this.body);
     }
