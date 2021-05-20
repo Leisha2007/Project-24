@@ -11,9 +11,9 @@ class Hammer {
     World.add(world, this.body);
   }
   display(){
-    var pos = this.body.position;
-    pos.x = mouseX;
-    pos.y = mouseY;
+    this.body.position.x=mouseX;
+    this.body.position.y=mouseY;
+    var pos=this.body.position;
     var angle = this.body.angle;
 
     push();
