@@ -5,7 +5,7 @@ class Stone{
 		 friction:0.9,
 		 density:12
 	 }
-		this.width=20;
+		this.width=30;
 	    this.body=Bodies.rectangle(x,y,this.width,this.width);
 		World.add(world, this.body);
 	}
